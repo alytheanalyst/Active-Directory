@@ -51,8 +51,85 @@ Deployment and Creating the Domain:  <br/>
 <img src="https://imgur.com/5D9ZfWp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Creating an admin OU and adding a user:  <br/>
+<img src="https://imgur.com/oyVivxj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Making the account a domain admin:  <br/>
+<img src="https://imgur.com/DbWU7C3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Logging into the new admin account:  <br/>
+<img src="https://imgur.com/NOvzcXz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Installing ras/nat to allow users to connect to internal server AND connect to internet:  <br/>
+<img src="https://imgur.com/S0rhdJX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/0kYVk0Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Configuring it with the routing and remote access tool:  <br/>
+<img src="https://imgur.com/DbWU7C3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/BvUVim3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/8z7oEuT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/EzcUVnQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Adding a DHCP server so users can get a IP address and access the internet while being on the internal private server:  <br/>
+<img src="https://imgur.com/LxYPxiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Creating the Scope:  <br/>
+<img src="https://imgur.com/jkiK2Sb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Setting the range:  <br/>
+<img src="https://imgur.com/SZ2MYmu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Success:  <br/>
+<img src="https://imgur.com/KbmtBmg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Executing a Powershell Script to add 1000+ Users (Thanks Josh Madakor):  <br/>
+<img src="https://imgur.com/29zCHeW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Adding and running the script in PowerShell:  <br/>
+<img src="https://imgur.com/HlNaosd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+All the new users added:  <br/>
+<img src="https://imgur.com/43uQjlh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Adding the windows 10 client, changing the adapter to the internal network.:  <br/>
+<img src="https://imgur.com/8JaYR9t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Pinging google and the domain to make sure it works.:  <br/>
+<img src="https://imgur.com/6sdQxg7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Changing the computer name and joining the domain using credentials from one of the users.:  <br/>
+<img src="https://imgur.com/rR2bdMU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Confirming if the new computer has shown up on the domain controller.:  <br/>
+<img src="https://imgur.com/9iOm6uQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Signing in as the "abargo" user:  <br/>
+<img src="https://imgur.com/dNhRbTg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Confirming we are logged into the domain on CLIENT1 as user abargo.:  <br/>
+<img src="https://imgur.com/haHnqUz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Summary:  <br/>
+<img src="https://imgur.com/8W9fujk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 </p>
 
 <!--
